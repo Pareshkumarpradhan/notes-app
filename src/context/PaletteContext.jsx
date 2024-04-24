@@ -24,7 +24,7 @@ export const PaletteProvider = ({ children }) => {
 
   useEffect(() => {
     localStorage.setItem("palette", JSON.stringify(state.palette));
-  }, [state?.palette?.color]);
+  }, [state.palette, state.palette.color]);
 
   return (
     <PaletteContext.Provider value={{ state, dispatch }}>
