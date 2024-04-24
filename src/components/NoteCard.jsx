@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import "../assets/css/card.css";
 
 export const NoteCard = ({ onPreview, onUpdate, onDelete, note }) => {

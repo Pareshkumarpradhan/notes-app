@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import "../assets/css/upsert.css";
 import { v4 as getID } from "uuid";

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import "../assets/css/details.css";
 
 export const NoteDetails = ({ setView, note }) => {
